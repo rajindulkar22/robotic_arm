@@ -1,0 +1,22 @@
+[0.494s] Invoking command in '/home/raj/manipulator_ws/src/manipulator_description': PYTHONPATH=/home/raj/manipulator_ws/build/manipulator_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raj/manipulator_ws/install/manipulator_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/manipulator_description build --build-base /home/raj/manipulator_ws/build/manipulator_description/build install --record /home/raj/manipulator_ws/build/manipulator_description/install.log --single-version-externally-managed install_data
+[0.682s] running egg_info
+[0.683s] writing ../../build/manipulator_description/manipulator_description.egg-info/PKG-INFO
+[0.683s] writing dependency_links to ../../build/manipulator_description/manipulator_description.egg-info/dependency_links.txt
+[0.683s] writing entry points to ../../build/manipulator_description/manipulator_description.egg-info/entry_points.txt
+[0.683s] writing requirements to ../../build/manipulator_description/manipulator_description.egg-info/requires.txt
+[0.683s] writing top-level names to ../../build/manipulator_description/manipulator_description.egg-info/top_level.txt
+[0.684s] reading manifest file '../../build/manipulator_description/manipulator_description.egg-info/SOURCES.txt'
+[0.685s] writing manifest file '../../build/manipulator_description/manipulator_description.egg-info/SOURCES.txt'
+[0.685s] running build
+[0.685s] running build_py
+[0.685s] running install
+[0.685s] running install_lib
+[0.686s] running install_data
+[0.686s] copying urdf/manipulator.urdf.xacro -> /home/raj/manipulator_ws/install/manipulator_description/share/manipulator_description/urdf
+[0.686s] running install_egg_info
+[0.688s] removing '/home/raj/manipulator_ws/install/manipulator_description/lib/python3.10/site-packages/manipulator_description-0.0.0-py3.10.egg-info' (and everything under it)
+[0.688s] Copying ../../build/manipulator_description/manipulator_description.egg-info to /home/raj/manipulator_ws/install/manipulator_description/lib/python3.10/site-packages/manipulator_description-0.0.0-py3.10.egg-info
+[0.688s] running install_scripts
+[0.703s] Installing simple_parameter_node script to /home/raj/manipulator_ws/install/manipulator_description/lib/manipulator_description
+[0.703s] writing list of installed files to '/home/raj/manipulator_ws/build/manipulator_description/install.log'
+[0.720s] Invoked command in '/home/raj/manipulator_ws/src/manipulator_description' returned '0': PYTHONPATH=/home/raj/manipulator_ws/build/manipulator_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raj/manipulator_ws/install/manipulator_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/manipulator_description build --build-base /home/raj/manipulator_ws/build/manipulator_description/build install --record /home/raj/manipulator_ws/build/manipulator_description/install.log --single-version-externally-managed install_data
