@@ -2,6 +2,8 @@
 /home/raj/manipulator_ws/install/manipulator_description/lib/python3.10/site-packages/manipulator_description/__pycache__/__init__.cpython-310.pyc
 /home/raj/manipulator_ws/install/manipulator_description/share/ament_index/resource_index/packages/manipulator_description
 /home/raj/manipulator_ws/install/manipulator_description/share/manipulator_description/package.xml
+/home/raj/manipulator_ws/install/manipulator_description/share/manipulator_description/urdf/manipulator_ros2_control.xacro
+/home/raj/manipulator_ws/install/manipulator_description/share/manipulator_description/urdf/manupilator_gazebo.xacro
 /home/raj/manipulator_ws/install/manipulator_description/share/manipulator_description/urdf/manipulator.urdf.xacro
 /home/raj/manipulator_ws/install/manipulator_description/share/manipulator_description/meshes/link.STL
 /home/raj/manipulator_ws/install/manipulator_description/share/manipulator_description/meshes/pi_camera.STL

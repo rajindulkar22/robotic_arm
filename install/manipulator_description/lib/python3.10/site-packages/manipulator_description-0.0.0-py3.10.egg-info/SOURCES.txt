@@ -33,3 +33,5 @@ test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 urdf/manipulator.urdf.xacro
+urdf/manipulator_ros2_control.xacro
+urdf/manupilator_gazebo.xacro
