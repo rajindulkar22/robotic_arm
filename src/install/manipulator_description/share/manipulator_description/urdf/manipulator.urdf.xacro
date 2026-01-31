@@ -270,15 +270,8 @@
             </plugin>
             <plugin filename="gz-sim-sensors-system" name="gz::sim::systems::Sensors">
                 <render_engine>ogre2</render_engine>
-            </plugin>
-        </xacro:unless>
-
-        <plugin filename="gz-sim-mimic-joint-system" name="gz::sim::systems::MimicJoint">
-            <joint>joint_4</joint>
-            <mimic_joint>joint_5</mimic_joint>
-            <multiplier>-1.0</multiplier>
-            <offset>0.0</offset>
         </plugin>
+      </xacro:unless>
     </gazebo>
 
 
