@@ -1,2 +1,0 @@
-[console_scripts]
-simple_parameter_node = simple_examples.simple_parameter:main
