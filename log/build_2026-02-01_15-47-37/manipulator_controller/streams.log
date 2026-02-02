@@ -1,0 +1,29 @@
+[0.813s] Invoking command in '/home/raj/robotic_arm/src/manipulator_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/raj/robotic_arm/build/manipulator_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raj/robotic_arm/install/manipulator_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/manipulator_controller build --build-base /home/raj/robotic_arm/build/manipulator_controller/build install --record /home/raj/robotic_arm/build/manipulator_controller/install.log --single-version-externally-managed install_data
+[0.954s] running egg_info
+[0.963s] writing ../../build/manipulator_controller/manipulator_controller.egg-info/PKG-INFO
+[0.963s] writing dependency_links to ../../build/manipulator_controller/manipulator_controller.egg-info/dependency_links.txt
+[0.963s] deleting ../../build/manipulator_controller/manipulator_controller.egg-info/entry_points.txt
+[0.963s] writing requirements to ../../build/manipulator_controller/manipulator_controller.egg-info/requires.txt
+[0.963s] writing top-level names to ../../build/manipulator_controller/manipulator_controller.egg-info/top_level.txt
+[0.982s] reading manifest file '../../build/manipulator_controller/manipulator_controller.egg-info/SOURCES.txt'
+[0.982s] writing manifest file '../../build/manipulator_controller/manipulator_controller.egg-info/SOURCES.txt'
+[0.982s] running build
+[0.982s] running build_py
+[0.982s] copying manipulator_controller/__init__.py -> /home/raj/robotic_arm/build/manipulator_controller/build/lib/manipulator_controller
+[0.982s] running install
+[0.985s] running install_lib
+[0.995s] creating /home/raj/robotic_arm/install/manipulator_controller/lib/python3.12/site-packages/manipulator_controller
+[0.995s] copying /home/raj/robotic_arm/build/manipulator_controller/build/lib/manipulator_controller/__init__.py -> /home/raj/robotic_arm/install/manipulator_controller/lib/python3.12/site-packages/manipulator_controller
+[0.995s] byte-compiling /home/raj/robotic_arm/install/manipulator_controller/lib/python3.12/site-packages/manipulator_controller/__init__.py to __init__.cpython-312.pyc
+[0.995s] running install_data
+[0.995s] copying resource/manipulator_controller -> /home/raj/robotic_arm/install/manipulator_controller/share/ament_index/resource_index/packages
+[0.995s] copying package.xml -> /home/raj/robotic_arm/install/manipulator_controller/share/manipulator_controller
+[0.995s] creating /home/raj/robotic_arm/install/manipulator_controller/share/manipulator_controller/config
+[0.995s] copying config/manipulator_controller.yaml -> /home/raj/robotic_arm/install/manipulator_controller/share/manipulator_controller/config
+[0.995s] creating /home/raj/robotic_arm/install/manipulator_controller/share/manipulator_controller/launch
+[0.996s] copying launch/controller.launch.py -> /home/raj/robotic_arm/install/manipulator_controller/share/manipulator_controller/launch
+[0.996s] running install_egg_info
+[1.005s] Copying ../../build/manipulator_controller/manipulator_controller.egg-info to /home/raj/robotic_arm/install/manipulator_controller/lib/python3.12/site-packages/manipulator_controller-0.0.0-py3.12.egg-info
+[1.006s] running install_scripts
+[1.077s] writing list of installed files to '/home/raj/robotic_arm/build/manipulator_controller/install.log'
+[1.096s] Invoked command in '/home/raj/robotic_arm/src/manipulator_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/raj/robotic_arm/build/manipulator_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raj/robotic_arm/install/manipulator_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/manipulator_controller build --build-base /home/raj/robotic_arm/build/manipulator_controller/build install --record /home/raj/robotic_arm/build/manipulator_controller/install.log --single-version-externally-managed install_data

@@ -1,0 +1,2 @@
+[console_scripts]
+angle_convertor = manipulator_utils.angle_conversion:main

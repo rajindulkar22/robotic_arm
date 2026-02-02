@@ -1,0 +1,25 @@
+[0.733s] Invoking command in '/home/raj/robotic_arm/src/manipulator_utils': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/raj/robotic_arm/build/manipulator_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raj/robotic_arm/install/manipulator_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/manipulator_utils build --build-base /home/raj/robotic_arm/build/manipulator_utils/build install --record /home/raj/robotic_arm/build/manipulator_utils/install.log --single-version-externally-managed install_data
+[0.872s] running egg_info
+[0.882s] writing ../../build/manipulator_utils/manipulator_utils.egg-info/PKG-INFO
+[0.882s] writing dependency_links to ../../build/manipulator_utils/manipulator_utils.egg-info/dependency_links.txt
+[0.882s] writing entry points to ../../build/manipulator_utils/manipulator_utils.egg-info/entry_points.txt
+[0.882s] writing requirements to ../../build/manipulator_utils/manipulator_utils.egg-info/requires.txt
+[0.882s] writing top-level names to ../../build/manipulator_utils/manipulator_utils.egg-info/top_level.txt
+[0.902s] reading manifest file '../../build/manipulator_utils/manipulator_utils.egg-info/SOURCES.txt'
+[0.902s] writing manifest file '../../build/manipulator_utils/manipulator_utils.egg-info/SOURCES.txt'
+[0.902s] running build
+[0.902s] running build_py
+[0.902s] copying manipulator_utils/angle_conversion.py -> /home/raj/robotic_arm/build/manipulator_utils/build/lib/manipulator_utils
+[0.903s] running install
+[0.906s] running install_lib
+[0.915s] copying /home/raj/robotic_arm/build/manipulator_utils/build/lib/manipulator_utils/angle_conversion.py -> /home/raj/robotic_arm/install/manipulator_utils/lib/python3.12/site-packages/manipulator_utils
+[0.916s] byte-compiling /home/raj/robotic_arm/install/manipulator_utils/lib/python3.12/site-packages/manipulator_utils/angle_conversion.py to angle_conversion.cpython-312.pyc
+[0.916s] running install_data
+[0.916s] copying package.xml -> /home/raj/robotic_arm/install/manipulator_utils/share/manipulator_utils
+[0.916s] running install_egg_info
+[0.927s] removing '/home/raj/robotic_arm/install/manipulator_utils/lib/python3.12/site-packages/manipulator_utils-0.0.0-py3.12.egg-info' (and everything under it)
+[0.927s] Copying ../../build/manipulator_utils/manipulator_utils.egg-info to /home/raj/robotic_arm/install/manipulator_utils/lib/python3.12/site-packages/manipulator_utils-0.0.0-py3.12.egg-info
+[0.927s] running install_scripts
+[1.000s] Installing angle_convertor script to /home/raj/robotic_arm/install/manipulator_utils/lib/manipulator_utils
+[1.000s] writing list of installed files to '/home/raj/robotic_arm/build/manipulator_utils/install.log'
+[1.018s] Invoked command in '/home/raj/robotic_arm/src/manipulator_utils' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/raj/robotic_arm/build/manipulator_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raj/robotic_arm/install/manipulator_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/manipulator_utils build --build-base /home/raj/robotic_arm/build/manipulator_utils/build install --record /home/raj/robotic_arm/build/manipulator_utils/install.log --single-version-externally-managed install_data

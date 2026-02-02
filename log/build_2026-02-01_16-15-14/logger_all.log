@@ -1,0 +1,318 @@
+[0.078s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.078s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7c84f4e876e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c84f4fd9820>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c84f4fd9820>>, mixin_verb=('build',))
+[0.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.108s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/raj/robotic_arm'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulator_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulator_controller) by extension 'ignore'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulator_controller) by extension 'ignore_ament_install'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulator_controller) by extensions ['colcon_pkg']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulator_controller) by extension 'colcon_pkg'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulator_controller) by extensions ['colcon_meta']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulator_controller) by extension 'colcon_meta'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulator_controller) by extensions ['ros']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulator_controller) by extension 'ros'
+[0.131s] DEBUG:colcon.colcon_core.package_identification:Package 'src/manipulator_controller' with type 'ros.ament_python' and name 'manipulator_controller'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulator_description) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulator_description) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulator_description) by extension 'ignore_ament_install'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulator_description) by extensions ['colcon_pkg']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulator_description) by extension 'colcon_pkg'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulator_description) by extensions ['colcon_meta']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulator_description) by extension 'colcon_meta'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulator_description) by extensions ['ros']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulator_description) by extension 'ros'
+[0.134s] DEBUG:colcon.colcon_core.package_identification:Package 'src/manipulator_description' with type 'ros.ament_python' and name 'manipulator_description'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulator_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulator_msgs) by extension 'ignore'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulator_msgs) by extension 'ignore_ament_install'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulator_msgs) by extensions ['colcon_pkg']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulator_msgs) by extension 'colcon_pkg'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulator_msgs) by extensions ['colcon_meta']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulator_msgs) by extension 'colcon_meta'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulator_msgs) by extensions ['ros']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulator_msgs) by extension 'ros'
+[0.134s] DEBUG:colcon.colcon_core.package_identification:Package 'src/manipulator_msgs' with type 'ros.ament_cmake' and name 'manipulator_msgs'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulator_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulator_utils) by extension 'ignore'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulator_utils) by extension 'ignore_ament_install'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulator_utils) by extensions ['colcon_pkg']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulator_utils) by extension 'colcon_pkg'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulator_utils) by extensions ['colcon_meta']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulator_utils) by extension 'colcon_meta'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulator_utils) by extensions ['ros']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(src/manipulator_utils) by extension 'ros'
+[0.135s] DEBUG:colcon.colcon_core.package_identification:Package 'src/manipulator_utils' with type 'ros.ament_python' and name 'manipulator_utils'
+[0.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.149s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/raj/robotic_arm/install
+[0.152s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 442 installed packages in /opt/ros/jazzy
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'manipulator_controller' build argument 'cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'manipulator_controller' build argument 'cmake_target' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'manipulator_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'manipulator_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'manipulator_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'manipulator_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'manipulator_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'manipulator_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'manipulator_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.193s] DEBUG:colcon.colcon_core.verb:Building package 'manipulator_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/raj/robotic_arm/build/manipulator_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/raj/robotic_arm/install/manipulator_controller', 'merge_install': False, 'path': '/home/raj/robotic_arm/src/manipulator_controller', 'symlink_install': False, 'test_result_base': None}
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'manipulator_description' build argument 'cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'manipulator_description' build argument 'cmake_target' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'manipulator_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'manipulator_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'manipulator_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'manipulator_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'manipulator_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'manipulator_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'manipulator_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.193s] DEBUG:colcon.colcon_core.verb:Building package 'manipulator_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/raj/robotic_arm/build/manipulator_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/raj/robotic_arm/install/manipulator_description', 'merge_install': False, 'path': '/home/raj/robotic_arm/src/manipulator_description', 'symlink_install': False, 'test_result_base': None}
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'manipulator_msgs' build argument 'cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'manipulator_msgs' build argument 'cmake_target' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'manipulator_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'manipulator_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'manipulator_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'manipulator_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'manipulator_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'manipulator_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'manipulator_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.193s] DEBUG:colcon.colcon_core.verb:Building package 'manipulator_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/raj/robotic_arm/build/manipulator_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/raj/robotic_arm/install/manipulator_msgs', 'merge_install': False, 'path': '/home/raj/robotic_arm/src/manipulator_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'manipulator_utils' build argument 'cmake_args' from command line to 'None'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'manipulator_utils' build argument 'cmake_target' from command line to 'None'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'manipulator_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'manipulator_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'manipulator_utils' build argument 'cmake_clean_first' from command line to 'False'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'manipulator_utils' build argument 'cmake_force_configure' from command line to 'False'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'manipulator_utils' build argument 'ament_cmake_args' from command line to 'None'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'manipulator_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[0.194s] Level 5:colcon.colcon_core.verb:set package 'manipulator_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.194s] DEBUG:colcon.colcon_core.verb:Building package 'manipulator_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/raj/robotic_arm/build/manipulator_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/raj/robotic_arm/install/manipulator_utils', 'merge_install': False, 'path': '/home/raj/robotic_arm/src/manipulator_utils', 'symlink_install': False, 'test_result_base': None}
+[0.194s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.194s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.194s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/raj/robotic_arm/src/manipulator_msgs' with build type 'ament_cmake'
+[0.195s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/raj/robotic_arm/src/manipulator_msgs'
+[0.196s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.196s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.196s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.200s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/raj/robotic_arm/src/manipulator_controller' with build type 'ament_python'
+[0.200s] Level 1:colcon.colcon_core.shell:create_environment_hook('manipulator_controller', 'ament_prefix_path')
+[0.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raj/robotic_arm/install/manipulator_controller/share/manipulator_controller/hook/ament_prefix_path.ps1'
+[0.200s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raj/robotic_arm/install/manipulator_controller/share/manipulator_controller/hook/ament_prefix_path.dsv'
+[0.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raj/robotic_arm/install/manipulator_controller/share/manipulator_controller/hook/ament_prefix_path.sh'
+[0.201s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.201s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.204s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/raj/robotic_arm/src/manipulator_description' with build type 'ament_python'
+[0.204s] Level 1:colcon.colcon_core.shell:create_environment_hook('manipulator_description', 'ament_prefix_path')
+[0.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/hook/ament_prefix_path.ps1'
+[0.205s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/hook/ament_prefix_path.dsv'
+[0.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/hook/ament_prefix_path.sh'
+[0.206s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.206s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.211s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raj/robotic_arm/build/manipulator_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raj/robotic_arm/install/manipulator_utils:/home/raj/robotic_arm/install/manipulator_description:/home/raj/robotic_arm/install/manipulator_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/raj/robotic_arm/src/manipulator_msgs -DCMAKE_INSTALL_PREFIX=/home/raj/robotic_arm/install/manipulator_msgs
+[0.366s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/raj/robotic_arm/src/manipulator_controller'
+[0.366s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.366s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.526s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/raj/robotic_arm/src/manipulator_description'
+[0.527s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.527s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raj/robotic_arm/src/manipulator_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/raj/robotic_arm/build/manipulator_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raj/robotic_arm/install/manipulator_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/manipulator_controller build --build-base /home/raj/robotic_arm/build/manipulator_controller/build install --record /home/raj/robotic_arm/build/manipulator_controller/install.log --single-version-externally-managed install_data
+[0.853s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raj/robotic_arm/src/manipulator_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/raj/robotic_arm/build/manipulator_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raj/robotic_arm/install/manipulator_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/manipulator_description build --build-base /home/raj/robotic_arm/build/manipulator_description/build install --record /home/raj/robotic_arm/build/manipulator_description/install.log --single-version-externally-managed install_data
+[1.126s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raj/robotic_arm/src/manipulator_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/raj/robotic_arm/build/manipulator_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raj/robotic_arm/install/manipulator_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/manipulator_controller build --build-base /home/raj/robotic_arm/build/manipulator_controller/build install --record /home/raj/robotic_arm/build/manipulator_controller/install.log --single-version-externally-managed install_data
+[1.127s] Level 1:colcon.colcon_core.environment:checking '/home/raj/robotic_arm/install/manipulator_controller' for CMake module files
+[1.127s] Level 1:colcon.colcon_core.environment:checking '/home/raj/robotic_arm/install/manipulator_controller' for CMake config files
+[1.127s] Level 1:colcon.colcon_core.environment:checking '/home/raj/robotic_arm/install/manipulator_controller/lib'
+[1.127s] Level 1:colcon.colcon_core.environment:checking '/home/raj/robotic_arm/install/manipulator_controller/bin'
+[1.127s] Level 1:colcon.colcon_core.environment:checking '/home/raj/robotic_arm/install/manipulator_controller/lib/pkgconfig/manipulator_controller.pc'
+[1.128s] Level 1:colcon.colcon_core.environment:checking '/home/raj/robotic_arm/install/manipulator_controller/lib/python3.12/site-packages'
+[1.128s] Level 1:colcon.colcon_core.shell:create_environment_hook('manipulator_controller', 'pythonpath')
+[1.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raj/robotic_arm/install/manipulator_controller/share/manipulator_controller/hook/pythonpath.ps1'
+[1.128s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raj/robotic_arm/install/manipulator_controller/share/manipulator_controller/hook/pythonpath.dsv'
+[1.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raj/robotic_arm/install/manipulator_controller/share/manipulator_controller/hook/pythonpath.sh'
+[1.129s] Level 1:colcon.colcon_core.environment:checking '/home/raj/robotic_arm/install/manipulator_controller/bin'
+[1.129s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(manipulator_controller)
+[1.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/raj/robotic_arm/install/manipulator_controller/share/manipulator_controller/package.ps1'
+[1.129s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raj/robotic_arm/install/manipulator_controller/share/manipulator_controller/package.dsv'
+[1.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/raj/robotic_arm/install/manipulator_controller/share/manipulator_controller/package.sh'
+[1.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/raj/robotic_arm/install/manipulator_controller/share/manipulator_controller/package.bash'
+[1.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/raj/robotic_arm/install/manipulator_controller/share/manipulator_controller/package.zsh'
+[1.137s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raj/robotic_arm/install/manipulator_controller/share/colcon-core/packages/manipulator_controller)
+[1.137s] Level 1:colcon.colcon_core.environment:checking '/home/raj/robotic_arm/install/manipulator_description' for CMake module files
+[1.138s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raj/robotic_arm/src/manipulator_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/raj/robotic_arm/build/manipulator_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raj/robotic_arm/install/manipulator_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/manipulator_description build --build-base /home/raj/robotic_arm/build/manipulator_description/build install --record /home/raj/robotic_arm/build/manipulator_description/install.log --single-version-externally-managed install_data
+[1.138s] Level 1:colcon.colcon_core.environment:checking '/home/raj/robotic_arm/install/manipulator_description' for CMake config files
+[1.138s] Level 1:colcon.colcon_core.environment:checking '/home/raj/robotic_arm/install/manipulator_description/lib'
+[1.139s] Level 1:colcon.colcon_core.environment:checking '/home/raj/robotic_arm/install/manipulator_description/bin'
+[1.139s] Level 1:colcon.colcon_core.environment:checking '/home/raj/robotic_arm/install/manipulator_description/lib/pkgconfig/manipulator_description.pc'
+[1.139s] Level 1:colcon.colcon_core.environment:checking '/home/raj/robotic_arm/install/manipulator_description/lib/python3.12/site-packages'
+[1.139s] Level 1:colcon.colcon_core.shell:create_environment_hook('manipulator_description', 'pythonpath')
+[1.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/hook/pythonpath.ps1'
+[1.139s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/hook/pythonpath.dsv'
+[1.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/hook/pythonpath.sh'
+[1.140s] Level 1:colcon.colcon_core.environment:checking '/home/raj/robotic_arm/install/manipulator_description/bin'
+[1.140s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(manipulator_description)
+[1.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/package.ps1'
+[1.140s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/package.dsv'
+[1.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/package.sh'
+[1.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/package.bash'
+[1.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/package.zsh'
+[1.141s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raj/robotic_arm/install/manipulator_description/share/colcon-core/packages/manipulator_description)
+[2.283s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raj/robotic_arm/build/manipulator_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raj/robotic_arm/install/manipulator_utils:/home/raj/robotic_arm/install/manipulator_description:/home/raj/robotic_arm/install/manipulator_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/raj/robotic_arm/src/manipulator_msgs -DCMAKE_INSTALL_PREFIX=/home/raj/robotic_arm/install/manipulator_msgs
+[2.284s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raj/robotic_arm/build/manipulator_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raj/robotic_arm/install/manipulator_utils:/home/raj/robotic_arm/install/manipulator_description:/home/raj/robotic_arm/install/manipulator_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/raj/robotic_arm/build/manipulator_msgs -- -j32 -l32
+[3.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raj/robotic_arm/build/manipulator_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raj/robotic_arm/install/manipulator_utils:/home/raj/robotic_arm/install/manipulator_description:/home/raj/robotic_arm/install/manipulator_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/raj/robotic_arm/build/manipulator_msgs -- -j32 -l32
+[4.004s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raj/robotic_arm/build/manipulator_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raj/robotic_arm/install/manipulator_utils:/home/raj/robotic_arm/install/manipulator_description:/home/raj/robotic_arm/install/manipulator_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/raj/robotic_arm/build/manipulator_msgs
+[4.057s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(manipulator_msgs)
+[4.057s] Level 1:colcon.colcon_core.environment:checking '/home/raj/robotic_arm/install/manipulator_msgs' for CMake module files
+[4.057s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raj/robotic_arm/build/manipulator_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raj/robotic_arm/install/manipulator_utils:/home/raj/robotic_arm/install/manipulator_description:/home/raj/robotic_arm/install/manipulator_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/raj/robotic_arm/build/manipulator_msgs
+[4.058s] Level 1:colcon.colcon_core.environment:checking '/home/raj/robotic_arm/install/manipulator_msgs' for CMake config files
+[4.058s] Level 1:colcon.colcon_core.shell:create_environment_hook('manipulator_msgs', 'cmake_prefix_path')
+[4.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/hook/cmake_prefix_path.ps1'
+[4.058s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/hook/cmake_prefix_path.dsv'
+[4.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/hook/cmake_prefix_path.sh'
+[4.058s] Level 1:colcon.colcon_core.environment:checking '/home/raj/robotic_arm/install/manipulator_msgs/lib'
+[4.058s] Level 1:colcon.colcon_core.shell:create_environment_hook('manipulator_msgs', 'ld_library_path_lib')
+[4.059s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/hook/ld_library_path_lib.ps1'
+[4.059s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/hook/ld_library_path_lib.dsv'
+[4.059s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/hook/ld_library_path_lib.sh'
+[4.059s] Level 1:colcon.colcon_core.environment:checking '/home/raj/robotic_arm/install/manipulator_msgs/bin'
+[4.059s] Level 1:colcon.colcon_core.environment:checking '/home/raj/robotic_arm/install/manipulator_msgs/lib/pkgconfig/manipulator_msgs.pc'
+[4.059s] Level 1:colcon.colcon_core.environment:checking '/home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages'
+[4.059s] Level 1:colcon.colcon_core.shell:create_environment_hook('manipulator_msgs', 'pythonpath')
+[4.059s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/hook/pythonpath.ps1'
+[4.059s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/hook/pythonpath.dsv'
+[4.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/hook/pythonpath.sh'
+[4.060s] Level 1:colcon.colcon_core.environment:checking '/home/raj/robotic_arm/install/manipulator_msgs/bin'
+[4.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/package.ps1'
+[4.060s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/package.dsv'
+[4.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/package.sh'
+[4.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/package.bash'
+[4.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/package.zsh'
+[4.061s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raj/robotic_arm/install/manipulator_msgs/share/colcon-core/packages/manipulator_msgs)
+[4.061s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(manipulator_msgs)
+[4.061s] Level 1:colcon.colcon_core.environment:checking '/home/raj/robotic_arm/install/manipulator_msgs' for CMake module files
+[4.062s] Level 1:colcon.colcon_core.environment:checking '/home/raj/robotic_arm/install/manipulator_msgs' for CMake config files
+[4.062s] Level 1:colcon.colcon_core.shell:create_environment_hook('manipulator_msgs', 'cmake_prefix_path')
+[4.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/hook/cmake_prefix_path.ps1'
+[4.062s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/hook/cmake_prefix_path.dsv'
+[4.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/hook/cmake_prefix_path.sh'
+[4.062s] Level 1:colcon.colcon_core.environment:checking '/home/raj/robotic_arm/install/manipulator_msgs/lib'
+[4.062s] Level 1:colcon.colcon_core.shell:create_environment_hook('manipulator_msgs', 'ld_library_path_lib')
+[4.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/hook/ld_library_path_lib.ps1'
+[4.063s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/hook/ld_library_path_lib.dsv'
+[4.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/hook/ld_library_path_lib.sh'
+[4.063s] Level 1:colcon.colcon_core.environment:checking '/home/raj/robotic_arm/install/manipulator_msgs/bin'
+[4.063s] Level 1:colcon.colcon_core.environment:checking '/home/raj/robotic_arm/install/manipulator_msgs/lib/pkgconfig/manipulator_msgs.pc'
+[4.063s] Level 1:colcon.colcon_core.environment:checking '/home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages'
+[4.063s] Level 1:colcon.colcon_core.shell:create_environment_hook('manipulator_msgs', 'pythonpath')
+[4.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/hook/pythonpath.ps1'
+[4.063s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/hook/pythonpath.dsv'
+[4.064s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/hook/pythonpath.sh'
+[4.064s] Level 1:colcon.colcon_core.environment:checking '/home/raj/robotic_arm/install/manipulator_msgs/bin'
+[4.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/package.ps1'
+[4.064s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/package.dsv'
+[4.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/package.sh'
+[4.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/package.bash'
+[4.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/package.zsh'
+[4.065s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raj/robotic_arm/install/manipulator_msgs/share/colcon-core/packages/manipulator_msgs)
+[4.065s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/raj/robotic_arm/src/manipulator_utils' with build type 'ament_python'
+[4.065s] Level 1:colcon.colcon_core.shell:create_environment_hook('manipulator_utils', 'ament_prefix_path')
+[4.065s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raj/robotic_arm/install/manipulator_utils/share/manipulator_utils/hook/ament_prefix_path.ps1'
+[4.066s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raj/robotic_arm/install/manipulator_utils/share/manipulator_utils/hook/ament_prefix_path.dsv'
+[4.066s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raj/robotic_arm/install/manipulator_utils/share/manipulator_utils/hook/ament_prefix_path.sh'
+[4.066s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.067s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.180s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/raj/robotic_arm/src/manipulator_utils'
+[4.180s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.180s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/raj/robotic_arm/src/manipulator_utils': AMENT_PREFIX_PATH=/home/raj/robotic_arm/install/manipulator_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raj/robotic_arm/install/manipulator_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/raj/robotic_arm/install/manipulator_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raj/robotic_arm/build/manipulator_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raj/robotic_arm/install/manipulator_utils/lib/python3.12/site-packages:/home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/manipulator_utils build --build-base /home/raj/robotic_arm/build/manipulator_utils/build install --record /home/raj/robotic_arm/build/manipulator_utils/install.log --single-version-externally-managed install_data
+[4.746s] Level 1:colcon.colcon_core.environment:checking '/home/raj/robotic_arm/install/manipulator_utils' for CMake module files
+[4.746s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/raj/robotic_arm/src/manipulator_utils' returned '0': AMENT_PREFIX_PATH=/home/raj/robotic_arm/install/manipulator_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raj/robotic_arm/install/manipulator_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/raj/robotic_arm/install/manipulator_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raj/robotic_arm/build/manipulator_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raj/robotic_arm/install/manipulator_utils/lib/python3.12/site-packages:/home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/manipulator_utils build --build-base /home/raj/robotic_arm/build/manipulator_utils/build install --record /home/raj/robotic_arm/build/manipulator_utils/install.log --single-version-externally-managed install_data
+[4.747s] Level 1:colcon.colcon_core.environment:checking '/home/raj/robotic_arm/install/manipulator_utils' for CMake config files
+[4.747s] Level 1:colcon.colcon_core.environment:checking '/home/raj/robotic_arm/install/manipulator_utils/lib'
+[4.747s] Level 1:colcon.colcon_core.environment:checking '/home/raj/robotic_arm/install/manipulator_utils/bin'
+[4.747s] Level 1:colcon.colcon_core.environment:checking '/home/raj/robotic_arm/install/manipulator_utils/lib/pkgconfig/manipulator_utils.pc'
+[4.747s] Level 1:colcon.colcon_core.environment:checking '/home/raj/robotic_arm/install/manipulator_utils/lib/python3.12/site-packages'
+[4.747s] Level 1:colcon.colcon_core.shell:create_environment_hook('manipulator_utils', 'pythonpath')
+[4.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raj/robotic_arm/install/manipulator_utils/share/manipulator_utils/hook/pythonpath.ps1'
+[4.748s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/raj/robotic_arm/install/manipulator_utils/share/manipulator_utils/hook/pythonpath.dsv'
+[4.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/raj/robotic_arm/install/manipulator_utils/share/manipulator_utils/hook/pythonpath.sh'
+[4.748s] Level 1:colcon.colcon_core.environment:checking '/home/raj/robotic_arm/install/manipulator_utils/bin'
+[4.748s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(manipulator_utils)
+[4.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/raj/robotic_arm/install/manipulator_utils/share/manipulator_utils/package.ps1'
+[4.749s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/raj/robotic_arm/install/manipulator_utils/share/manipulator_utils/package.dsv'
+[4.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/raj/robotic_arm/install/manipulator_utils/share/manipulator_utils/package.sh'
+[4.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/raj/robotic_arm/install/manipulator_utils/share/manipulator_utils/package.bash'
+[4.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/raj/robotic_arm/install/manipulator_utils/share/manipulator_utils/package.zsh'
+[4.750s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/raj/robotic_arm/install/manipulator_utils/share/colcon-core/packages/manipulator_utils)
+[4.750s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.750s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.750s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.750s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.753s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.753s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.753s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.761s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.761s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/raj/robotic_arm/install/local_setup.ps1'
+[4.761s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/raj/robotic_arm/install/_local_setup_util_ps1.py'
+[4.762s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/raj/robotic_arm/install/setup.ps1'
+[4.762s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/raj/robotic_arm/install/local_setup.sh'
+[4.762s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/raj/robotic_arm/install/_local_setup_util_sh.py'
+[4.763s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/raj/robotic_arm/install/setup.sh'
+[4.763s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/raj/robotic_arm/install/local_setup.bash'
+[4.763s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/raj/robotic_arm/install/setup.bash'
+[4.764s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/raj/robotic_arm/install/local_setup.zsh'
+[4.764s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/raj/robotic_arm/install/setup.zsh'

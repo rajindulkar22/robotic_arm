@@ -1,0 +1,52 @@
+[0.806s] Invoking command in '/home/raj/robotic_arm/src/manipulator_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/raj/robotic_arm/build/manipulator_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raj/robotic_arm/install/manipulator_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/manipulator_description build --build-base /home/raj/robotic_arm/build/manipulator_description/build install --record /home/raj/robotic_arm/build/manipulator_description/install.log --single-version-externally-managed install_data
+[0.947s] running egg_info
+[0.956s] writing ../../build/manipulator_description/manipulator_description.egg-info/PKG-INFO
+[0.957s] writing dependency_links to ../../build/manipulator_description/manipulator_description.egg-info/dependency_links.txt
+[0.957s] writing entry points to ../../build/manipulator_description/manipulator_description.egg-info/entry_points.txt
+[0.957s] writing requirements to ../../build/manipulator_description/manipulator_description.egg-info/requires.txt
+[0.957s] writing top-level names to ../../build/manipulator_description/manipulator_description.egg-info/top_level.txt
+[0.976s] reading manifest file '../../build/manipulator_description/manipulator_description.egg-info/SOURCES.txt'
+[0.976s] writing manifest file '../../build/manipulator_description/manipulator_description.egg-info/SOURCES.txt'
+[0.976s] running build
+[0.976s] running build_py
+[0.976s] copying manipulator_description/__init__.py -> /home/raj/robotic_arm/build/manipulator_description/build/lib/manipulator_description
+[0.976s] running install
+[0.980s] running install_lib
+[0.989s] creating /home/raj/robotic_arm/install/manipulator_description/lib/python3.12/site-packages/manipulator_description
+[0.989s] copying /home/raj/robotic_arm/build/manipulator_description/build/lib/manipulator_description/__init__.py -> /home/raj/robotic_arm/install/manipulator_description/lib/python3.12/site-packages/manipulator_description
+[0.989s] creating /home/raj/robotic_arm/install/manipulator_description/lib/python3.12/site-packages/simple_examples
+[0.989s] copying /home/raj/robotic_arm/build/manipulator_description/build/lib/simple_examples/__init__.py -> /home/raj/robotic_arm/install/manipulator_description/lib/python3.12/site-packages/simple_examples
+[0.989s] copying /home/raj/robotic_arm/build/manipulator_description/build/lib/simple_examples/simple_parameter.py -> /home/raj/robotic_arm/install/manipulator_description/lib/python3.12/site-packages/simple_examples
+[0.990s] byte-compiling /home/raj/robotic_arm/install/manipulator_description/lib/python3.12/site-packages/manipulator_description/__init__.py to __init__.cpython-312.pyc
+[0.990s] byte-compiling /home/raj/robotic_arm/install/manipulator_description/lib/python3.12/site-packages/simple_examples/__init__.py to __init__.cpython-312.pyc
+[0.990s] byte-compiling /home/raj/robotic_arm/install/manipulator_description/lib/python3.12/site-packages/simple_examples/simple_parameter.py to simple_parameter.cpython-312.pyc
+[0.990s] running install_data
+[0.990s] copying resource/manipulator_description -> /home/raj/robotic_arm/install/manipulator_description/share/ament_index/resource_index/packages
+[0.990s] copying package.xml -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description
+[0.990s] copying urdf/manipulator.urdf.xacro -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/urdf
+[0.990s] copying urdf/manupilator_gazebo.xacro -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/urdf
+[0.991s] copying urdf/manipulator_ros2_control.xacro -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/urdf
+[0.991s] copying meshes/vertical_drive_arm.STL -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/meshes
+[0.991s] copying meshes/arduinobot.urdf.xacro -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/meshes
+[0.992s] copying meshes/triangular_link.STL -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/meshes
+[0.992s] copying meshes/left_finger.STL -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/meshes
+[0.993s] copying meshes/basement.STL -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/meshes
+[0.994s] copying meshes/pi_camera.STL -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/meshes
+[0.994s] copying meshes/round_plate.STL -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/meshes
+[0.994s] copying meshes/plate.STL -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/meshes
+[0.996s] copying meshes/servo_plate.STL -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/meshes
+[0.996s] copying meshes/horizontal_arm.STL -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/meshes
+[0.998s] copying meshes/link.STL -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/meshes
+[0.999s] copying meshes/base_plate.STL -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/meshes
+[1.001s] copying meshes/claw_support.STL -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/meshes
+[1.002s] copying meshes/right_finger.STL -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/meshes
+[1.002s] copying meshes/forward_drive_arm.STL -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/meshes
+[1.004s] copying launch/gazebo.launch.py -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/launch
+[1.004s] copying launch/display.launch.py -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/launch
+[1.004s] copying rviz/display.rviz -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/rviz
+[1.004s] running install_egg_info
+[1.014s] Copying ../../build/manipulator_description/manipulator_description.egg-info to /home/raj/robotic_arm/install/manipulator_description/lib/python3.12/site-packages/manipulator_description-0.0.0-py3.12.egg-info
+[1.014s] running install_scripts
+[1.087s] Installing simple_parameter_node script to /home/raj/robotic_arm/install/manipulator_description/lib/manipulator_description
+[1.087s] writing list of installed files to '/home/raj/robotic_arm/build/manipulator_description/install.log'
+[1.104s] Invoked command in '/home/raj/robotic_arm/src/manipulator_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/raj/robotic_arm/build/manipulator_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raj/robotic_arm/install/manipulator_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/manipulator_description build --build-base /home/raj/robotic_arm/build/manipulator_description/build install --record /home/raj/robotic_arm/build/manipulator_description/install.log --single-version-externally-managed install_data

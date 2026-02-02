@@ -1,0 +1,50 @@
+running egg_info
+writing ../../build/manipulator_description/manipulator_description.egg-info/PKG-INFO
+writing dependency_links to ../../build/manipulator_description/manipulator_description.egg-info/dependency_links.txt
+writing entry points to ../../build/manipulator_description/manipulator_description.egg-info/entry_points.txt
+writing requirements to ../../build/manipulator_description/manipulator_description.egg-info/requires.txt
+writing top-level names to ../../build/manipulator_description/manipulator_description.egg-info/top_level.txt
+reading manifest file '../../build/manipulator_description/manipulator_description.egg-info/SOURCES.txt'
+writing manifest file '../../build/manipulator_description/manipulator_description.egg-info/SOURCES.txt'
+running build
+running build_py
+copying manipulator_description/__init__.py -> /home/raj/robotic_arm/build/manipulator_description/build/lib/manipulator_description
+running install
+running install_lib
+creating /home/raj/robotic_arm/install/manipulator_description/lib/python3.12/site-packages/manipulator_description
+copying /home/raj/robotic_arm/build/manipulator_description/build/lib/manipulator_description/__init__.py -> /home/raj/robotic_arm/install/manipulator_description/lib/python3.12/site-packages/manipulator_description
+creating /home/raj/robotic_arm/install/manipulator_description/lib/python3.12/site-packages/simple_examples
+copying /home/raj/robotic_arm/build/manipulator_description/build/lib/simple_examples/__init__.py -> /home/raj/robotic_arm/install/manipulator_description/lib/python3.12/site-packages/simple_examples
+copying /home/raj/robotic_arm/build/manipulator_description/build/lib/simple_examples/simple_parameter.py -> /home/raj/robotic_arm/install/manipulator_description/lib/python3.12/site-packages/simple_examples
+byte-compiling /home/raj/robotic_arm/install/manipulator_description/lib/python3.12/site-packages/manipulator_description/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/raj/robotic_arm/install/manipulator_description/lib/python3.12/site-packages/simple_examples/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/raj/robotic_arm/install/manipulator_description/lib/python3.12/site-packages/simple_examples/simple_parameter.py to simple_parameter.cpython-312.pyc
+running install_data
+copying resource/manipulator_description -> /home/raj/robotic_arm/install/manipulator_description/share/ament_index/resource_index/packages
+copying package.xml -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description
+copying urdf/manipulator.urdf.xacro -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/urdf
+copying urdf/manupilator_gazebo.xacro -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/urdf
+copying urdf/manipulator_ros2_control.xacro -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/urdf
+copying meshes/vertical_drive_arm.STL -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/meshes
+copying meshes/arduinobot.urdf.xacro -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/meshes
+copying meshes/triangular_link.STL -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/meshes
+copying meshes/left_finger.STL -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/meshes
+copying meshes/basement.STL -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/meshes
+copying meshes/pi_camera.STL -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/meshes
+copying meshes/round_plate.STL -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/meshes
+copying meshes/plate.STL -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/meshes
+copying meshes/servo_plate.STL -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/meshes
+copying meshes/horizontal_arm.STL -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/meshes
+copying meshes/link.STL -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/meshes
+copying meshes/base_plate.STL -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/meshes
+copying meshes/claw_support.STL -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/meshes
+copying meshes/right_finger.STL -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/meshes
+copying meshes/forward_drive_arm.STL -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/meshes
+copying launch/gazebo.launch.py -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/launch
+copying launch/display.launch.py -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/launch
+copying rviz/display.rviz -> /home/raj/robotic_arm/install/manipulator_description/share/manipulator_description/rviz
+running install_egg_info
+Copying ../../build/manipulator_description/manipulator_description.egg-info to /home/raj/robotic_arm/install/manipulator_description/lib/python3.12/site-packages/manipulator_description-0.0.0-py3.12.egg-info
+running install_scripts
+Installing simple_parameter_node script to /home/raj/robotic_arm/install/manipulator_description/lib/manipulator_description
+writing list of installed files to '/home/raj/robotic_arm/build/manipulator_description/install.log'

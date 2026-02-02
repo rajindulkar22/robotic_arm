@@ -1,0 +1,53 @@
+#!/usr/bin/env python3
+import rclpy
+from rclpy.logging import get_logger
+import numpy as np
+from moveit.planning import MoveItPy
+from moveit.core.robot_state import RobotState
+
+def move_robot():
+    manipulator = MoveItPy(node_name="move_robot") #creates a moveitpy object
+    manipulator_arm = manipulator.get_planning_component("arm") #gets the planning component for the arm
+    manipulator_gripper = manipulator.get_planning_component("gripper") #gets the planning component for the gripper
+
+
+    arm_state = RobotState(manipulator.get_robot_model()) #creates a robot state for the arm
+    gripper_state = RobotState(manipulator.get_robot_model()) #creates a robot state for the gripper
+
+    arm_state.set_joint_group_positions("arm",np.array([1.57,0.0,0.0])) #sets the joint positions for the arm
+    gripper_state.set_joint_group_positions("gripper",np.array([-0.7,0.7])) #sets the joint positions for the gripper
+
+    manipulator_arm.set_start_state_to_current_state() #sets the start state to the current state of the robot
+    manipulator_gripper.set_start_state_to_current_state() #sets the start state to the current state of the robot
+
+    manipulator_arm.set_goal_state(robot_state=arm_state) #sets the goal state for the arm
+    manipulator_gripper.set_goal_state(robot_state=gripper_state) #sets the goal state for the gripper
+
+    manipulator_arm.plan() #plans the path for the arm
+    manipulator_gripper.plan() #plans the path for the gripper
+
+    arm_plan_result = manipulator_arm.plan() #gets the result of the plan for the arm
+    gripper_plan_result = manipulator_gripper.plan() #gets the result of the plan for the gripper
+
+    if arm_plan_result and gripper_plan_result: #checks if the plan was successful
+        manipulator.execute(arm_plan_result.trajectory,controllers=[]) #executes the plan for the arm
+        manipulator.execute(gripper_plan_result.trajectory,controllers=[]) #executes the plan for the gripper
+
+    else:
+        get_logger("rclpy").info("Plan failed")
+    
+
+
+
+    
+
+    
+
+
+def main():
+    rclpy.init()
+    move_robot()
+    rclpy.shutdown()
+
+if __name__ == "__main__":
+    main()
