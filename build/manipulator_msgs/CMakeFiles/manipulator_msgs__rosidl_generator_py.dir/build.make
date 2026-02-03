@@ -97,18 +97,47 @@ CMakeFiles/manipulator_msgs__rosidl_generator_py.dir/rosidl_generator_py/manipul
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/manipulator_msgs__rosidl_generator_py.dir/rosidl_generator_py/manipulator_msgs/srv/_quaternion_to_euler_s.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/raj/robotic_arm/build/manipulator_msgs/rosidl_generator_py/manipulator_msgs/srv/_quaternion_to_euler_s.c -o CMakeFiles/manipulator_msgs__rosidl_generator_py.dir/rosidl_generator_py/manipulator_msgs/srv/_quaternion_to_euler_s.c.s
 
+CMakeFiles/manipulator_msgs__rosidl_generator_py.dir/rosidl_generator_py/manipulator_msgs/action/_manipulator_task_s.c.o: CMakeFiles/manipulator_msgs__rosidl_generator_py.dir/flags.make
+CMakeFiles/manipulator_msgs__rosidl_generator_py.dir/rosidl_generator_py/manipulator_msgs/action/_manipulator_task_s.c.o: rosidl_generator_py/manipulator_msgs/action/_manipulator_task_s.c
+CMakeFiles/manipulator_msgs__rosidl_generator_py.dir/rosidl_generator_py/manipulator_msgs/action/_manipulator_task_s.c.o: CMakeFiles/manipulator_msgs__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/raj/robotic_arm/build/manipulator_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/manipulator_msgs__rosidl_generator_py.dir/rosidl_generator_py/manipulator_msgs/action/_manipulator_task_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/manipulator_msgs__rosidl_generator_py.dir/rosidl_generator_py/manipulator_msgs/action/_manipulator_task_s.c.o -MF CMakeFiles/manipulator_msgs__rosidl_generator_py.dir/rosidl_generator_py/manipulator_msgs/action/_manipulator_task_s.c.o.d -o CMakeFiles/manipulator_msgs__rosidl_generator_py.dir/rosidl_generator_py/manipulator_msgs/action/_manipulator_task_s.c.o -c /home/raj/robotic_arm/build/manipulator_msgs/rosidl_generator_py/manipulator_msgs/action/_manipulator_task_s.c
+
+CMakeFiles/manipulator_msgs__rosidl_generator_py.dir/rosidl_generator_py/manipulator_msgs/action/_manipulator_task_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/manipulator_msgs__rosidl_generator_py.dir/rosidl_generator_py/manipulator_msgs/action/_manipulator_task_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/raj/robotic_arm/build/manipulator_msgs/rosidl_generator_py/manipulator_msgs/action/_manipulator_task_s.c > CMakeFiles/manipulator_msgs__rosidl_generator_py.dir/rosidl_generator_py/manipulator_msgs/action/_manipulator_task_s.c.i
+
+CMakeFiles/manipulator_msgs__rosidl_generator_py.dir/rosidl_generator_py/manipulator_msgs/action/_manipulator_task_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/manipulator_msgs__rosidl_generator_py.dir/rosidl_generator_py/manipulator_msgs/action/_manipulator_task_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/raj/robotic_arm/build/manipulator_msgs/rosidl_generator_py/manipulator_msgs/action/_manipulator_task_s.c -o CMakeFiles/manipulator_msgs__rosidl_generator_py.dir/rosidl_generator_py/manipulator_msgs/action/_manipulator_task_s.c.s
+
 # Object files for target manipulator_msgs__rosidl_generator_py
 manipulator_msgs__rosidl_generator_py_OBJECTS = \
 "CMakeFiles/manipulator_msgs__rosidl_generator_py.dir/rosidl_generator_py/manipulator_msgs/srv/_euler_to_quaternion_s.c.o" \
-"CMakeFiles/manipulator_msgs__rosidl_generator_py.dir/rosidl_generator_py/manipulator_msgs/srv/_quaternion_to_euler_s.c.o"
+"CMakeFiles/manipulator_msgs__rosidl_generator_py.dir/rosidl_generator_py/manipulator_msgs/srv/_quaternion_to_euler_s.c.o" \
+"CMakeFiles/manipulator_msgs__rosidl_generator_py.dir/rosidl_generator_py/manipulator_msgs/action/_manipulator_task_s.c.o"
 
 # External object files for target manipulator_msgs__rosidl_generator_py
 manipulator_msgs__rosidl_generator_py_EXTERNAL_OBJECTS =
 
 libmanipulator_msgs__rosidl_generator_py.so: CMakeFiles/manipulator_msgs__rosidl_generator_py.dir/rosidl_generator_py/manipulator_msgs/srv/_euler_to_quaternion_s.c.o
 libmanipulator_msgs__rosidl_generator_py.so: CMakeFiles/manipulator_msgs__rosidl_generator_py.dir/rosidl_generator_py/manipulator_msgs/srv/_quaternion_to_euler_s.c.o
+libmanipulator_msgs__rosidl_generator_py.so: CMakeFiles/manipulator_msgs__rosidl_generator_py.dir/rosidl_generator_py/manipulator_msgs/action/_manipulator_task_s.c.o
 libmanipulator_msgs__rosidl_generator_py.so: CMakeFiles/manipulator_msgs__rosidl_generator_py.dir/build.make
 libmanipulator_msgs__rosidl_generator_py.so: libmanipulator_msgs__rosidl_typesupport_c.so
+libmanipulator_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so
+libmanipulator_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so
+libmanipulator_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libaction_msgs__rosidl_typesupport_introspection_c.so
+libmanipulator_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so
+libmanipulator_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libaction_msgs__rosidl_typesupport_cpp.so
+libmanipulator_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libaction_msgs__rosidl_generator_py.so
+libmanipulator_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_c.so
+libmanipulator_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_c.so
+libmanipulator_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_cpp.so
+libmanipulator_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so
+libmanipulator_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so
+libmanipulator_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_generator_py.so
+libmanipulator_msgs__rosidl_generator_py.so: libmanipulator_msgs__rosidl_generator_c.so
 libmanipulator_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_c.so
 libmanipulator_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_cpp.so
 libmanipulator_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_c.so
@@ -121,9 +150,12 @@ libmanipulator_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_inter
 libmanipulator_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
 libmanipulator_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 libmanipulator_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_py.so
-libmanipulator_msgs__rosidl_generator_py.so: libmanipulator_msgs__rosidl_generator_c.so
+libmanipulator_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libaction_msgs__rosidl_typesupport_c.so
 libmanipulator_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_c.so
+libmanipulator_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
+libmanipulator_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libaction_msgs__rosidl_generator_c.so
 libmanipulator_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_generator_c.so
+libmanipulator_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_c.so
 libmanipulator_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_c.so
 libmanipulator_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_cpp.so
 libmanipulator_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libfastcdr.so.2.2.5
@@ -132,12 +164,12 @@ libmanipulator_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_dynami
 libmanipulator_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_typesupport_introspection_cpp.so
 libmanipulator_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_typesupport_introspection_c.so
 libmanipulator_msgs__rosidl_generator_py.so: /usr/lib/x86_64-linux-gnu/libpython3.12.so
-libmanipulator_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
-libmanipulator_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_c.so
+libmanipulator_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_typesupport_c.so
+libmanipulator_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libunique_identifier_msgs__rosidl_generator_c.so
 libmanipulator_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 libmanipulator_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/librcutils.so
 libmanipulator_msgs__rosidl_generator_py.so: CMakeFiles/manipulator_msgs__rosidl_generator_py.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/raj/robotic_arm/build/manipulator_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libmanipulator_msgs__rosidl_generator_py.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/raj/robotic_arm/build/manipulator_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libmanipulator_msgs__rosidl_generator_py.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/manipulator_msgs__rosidl_generator_py.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

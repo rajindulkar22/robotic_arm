@@ -1,3 +1,5 @@
+action/ManipulatorTask.action
+action/ManipulatorTask.idl
 srv/EulerToQuaternion.idl
 srv/EulerToQuaternion.srv
 srv/QuaternionToEuler.idl

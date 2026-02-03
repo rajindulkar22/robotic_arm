@@ -71,9 +71,12 @@ include /home/raj/robotic_arm/build/manipulator_msgs/manipulator_msgs__py/CMakeF
 /home/raj/robotic_arm/build/manipulator_msgs/manipulator_msgs__py/CMakeFiles/manipulator_msgs__py: rosidl_generator_py/manipulator_msgs/_manipulator_msgs_s.ep.rosidl_typesupport_c.c
 /home/raj/robotic_arm/build/manipulator_msgs/manipulator_msgs__py/CMakeFiles/manipulator_msgs__py: rosidl_generator_py/manipulator_msgs/srv/_euler_to_quaternion.py
 /home/raj/robotic_arm/build/manipulator_msgs/manipulator_msgs__py/CMakeFiles/manipulator_msgs__py: rosidl_generator_py/manipulator_msgs/srv/_quaternion_to_euler.py
+/home/raj/robotic_arm/build/manipulator_msgs/manipulator_msgs__py/CMakeFiles/manipulator_msgs__py: rosidl_generator_py/manipulator_msgs/action/_manipulator_task.py
 /home/raj/robotic_arm/build/manipulator_msgs/manipulator_msgs__py/CMakeFiles/manipulator_msgs__py: rosidl_generator_py/manipulator_msgs/srv/__init__.py
+/home/raj/robotic_arm/build/manipulator_msgs/manipulator_msgs__py/CMakeFiles/manipulator_msgs__py: rosidl_generator_py/manipulator_msgs/action/__init__.py
 /home/raj/robotic_arm/build/manipulator_msgs/manipulator_msgs__py/CMakeFiles/manipulator_msgs__py: rosidl_generator_py/manipulator_msgs/srv/_euler_to_quaternion_s.c
 /home/raj/robotic_arm/build/manipulator_msgs/manipulator_msgs__py/CMakeFiles/manipulator_msgs__py: rosidl_generator_py/manipulator_msgs/srv/_quaternion_to_euler_s.c
+/home/raj/robotic_arm/build/manipulator_msgs/manipulator_msgs__py/CMakeFiles/manipulator_msgs__py: rosidl_generator_py/manipulator_msgs/action/_manipulator_task_s.c
 
 rosidl_generator_py/manipulator_msgs/_manipulator_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/manipulator_msgs/_manipulator_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_py/__init__.py
@@ -90,9 +93,15 @@ rosidl_generator_py/manipulator_msgs/_manipulator_msgs_s.ep.rosidl_typesupport_f
 rosidl_generator_py/manipulator_msgs/_manipulator_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/manipulator_msgs/_manipulator_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/manipulator_msgs/srv/EulerToQuaternion.idl
 rosidl_generator_py/manipulator_msgs/_manipulator_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/manipulator_msgs/srv/QuaternionToEuler.idl
+rosidl_generator_py/manipulator_msgs/_manipulator_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/manipulator_msgs/action/ManipulatorTask.idl
 rosidl_generator_py/manipulator_msgs/_manipulator_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
 rosidl_generator_py/manipulator_msgs/_manipulator_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_py/manipulator_msgs/_manipulator_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_py/manipulator_msgs/_manipulator_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl
+rosidl_generator_py/manipulator_msgs/_manipulator_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl
+rosidl_generator_py/manipulator_msgs/_manipulator_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_generator_py/manipulator_msgs/_manipulator_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/action_msgs/srv/CancelGoal.idl
+rosidl_generator_py/manipulator_msgs/_manipulator_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/raj/robotic_arm/build/manipulator_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/raj/robotic_arm/build/manipulator_msgs/manipulator_msgs__py && /usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/raj/robotic_arm/build/manipulator_msgs/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -108,8 +117,14 @@ rosidl_generator_py/manipulator_msgs/srv/_euler_to_quaternion.py: rosidl_generat
 rosidl_generator_py/manipulator_msgs/srv/_quaternion_to_euler.py: rosidl_generator_py/manipulator_msgs/_manipulator_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/manipulator_msgs/srv/_quaternion_to_euler.py
 
+rosidl_generator_py/manipulator_msgs/action/_manipulator_task.py: rosidl_generator_py/manipulator_msgs/_manipulator_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/manipulator_msgs/action/_manipulator_task.py
+
 rosidl_generator_py/manipulator_msgs/srv/__init__.py: rosidl_generator_py/manipulator_msgs/_manipulator_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/manipulator_msgs/srv/__init__.py
+
+rosidl_generator_py/manipulator_msgs/action/__init__.py: rosidl_generator_py/manipulator_msgs/_manipulator_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/manipulator_msgs/action/__init__.py
 
 rosidl_generator_py/manipulator_msgs/srv/_euler_to_quaternion_s.c: rosidl_generator_py/manipulator_msgs/_manipulator_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/manipulator_msgs/srv/_euler_to_quaternion_s.c
@@ -117,10 +132,16 @@ rosidl_generator_py/manipulator_msgs/srv/_euler_to_quaternion_s.c: rosidl_genera
 rosidl_generator_py/manipulator_msgs/srv/_quaternion_to_euler_s.c: rosidl_generator_py/manipulator_msgs/_manipulator_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/manipulator_msgs/srv/_quaternion_to_euler_s.c
 
+rosidl_generator_py/manipulator_msgs/action/_manipulator_task_s.c: rosidl_generator_py/manipulator_msgs/_manipulator_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/manipulator_msgs/action/_manipulator_task_s.c
+
 manipulator_msgs__py: /home/raj/robotic_arm/build/manipulator_msgs/manipulator_msgs__py/CMakeFiles/manipulator_msgs__py
 manipulator_msgs__py: rosidl_generator_py/manipulator_msgs/_manipulator_msgs_s.ep.rosidl_typesupport_c.c
 manipulator_msgs__py: rosidl_generator_py/manipulator_msgs/_manipulator_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 manipulator_msgs__py: rosidl_generator_py/manipulator_msgs/_manipulator_msgs_s.ep.rosidl_typesupport_introspection_c.c
+manipulator_msgs__py: rosidl_generator_py/manipulator_msgs/action/__init__.py
+manipulator_msgs__py: rosidl_generator_py/manipulator_msgs/action/_manipulator_task.py
+manipulator_msgs__py: rosidl_generator_py/manipulator_msgs/action/_manipulator_task_s.c
 manipulator_msgs__py: rosidl_generator_py/manipulator_msgs/srv/__init__.py
 manipulator_msgs__py: rosidl_generator_py/manipulator_msgs/srv/_euler_to_quaternion.py
 manipulator_msgs__py: rosidl_generator_py/manipulator_msgs/srv/_euler_to_quaternion_s.c

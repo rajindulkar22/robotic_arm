@@ -1,0 +1,1 @@
+ros2launch;manipulator_description;manipulator_controller;manipulator_moveit;manipulator_remote;gazebo_ros;ament_lint_auto;ament_lint_common

@@ -1,0 +1,8 @@
+setup.py
+manipulator_remote/__init__.py
+manipulator_remote/alexa_interface.py
+manipulator_remote/task_server.py
+manipulator_remote.egg-info/PKG-INFO
+manipulator_remote.egg-info/SOURCES.txt
+manipulator_remote.egg-info/dependency_links.txt
+manipulator_remote.egg-info/top_level.txt

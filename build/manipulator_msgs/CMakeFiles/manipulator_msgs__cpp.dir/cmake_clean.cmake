@@ -1,5 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/manipulator_msgs__cpp"
+  "rosidl_generator_cpp/manipulator_msgs/action/detail/manipulator_task__builder.hpp"
+  "rosidl_generator_cpp/manipulator_msgs/action/detail/manipulator_task__struct.hpp"
+  "rosidl_generator_cpp/manipulator_msgs/action/detail/manipulator_task__traits.hpp"
+  "rosidl_generator_cpp/manipulator_msgs/action/detail/manipulator_task__type_support.hpp"
+  "rosidl_generator_cpp/manipulator_msgs/action/manipulator_task.hpp"
   "rosidl_generator_cpp/manipulator_msgs/msg/rosidl_generator_cpp__visibility_control.hpp"
   "rosidl_generator_cpp/manipulator_msgs/srv/detail/euler_to_quaternion__builder.hpp"
   "rosidl_generator_cpp/manipulator_msgs/srv/detail/euler_to_quaternion__struct.hpp"

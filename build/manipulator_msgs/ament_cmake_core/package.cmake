@@ -1,7 +1,7 @@
 set(_AMENT_PACKAGE_NAME "manipulator_msgs")
 set(manipulator_msgs_VERSION "0.0.0")
 set(manipulator_msgs_MAINTAINER "raj <raj@todo.todo>")
-set(manipulator_msgs_BUILD_DEPENDS "rosidl_default_generators")
+set(manipulator_msgs_BUILD_DEPENDS "rosidl_default_generators" "moveit_py")
 set(manipulator_msgs_BUILDTOOL_DEPENDS "ament_cmake")
 set(manipulator_msgs_BUILD_EXPORT_DEPENDS )
 set(manipulator_msgs_BUILDTOOL_EXPORT_DEPENDS )

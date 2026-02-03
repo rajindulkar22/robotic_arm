@@ -1,2 +1,3 @@
 /home/raj/robotic_arm/build/manipulator_msgs/rosidl_adapter/manipulator_msgs:srv/EulerToQuaternion.idl
 /home/raj/robotic_arm/build/manipulator_msgs/rosidl_adapter/manipulator_msgs:srv/QuaternionToEuler.idl
+/home/raj/robotic_arm/build/manipulator_msgs/rosidl_adapter/manipulator_msgs:action/ManipulatorTask.idl

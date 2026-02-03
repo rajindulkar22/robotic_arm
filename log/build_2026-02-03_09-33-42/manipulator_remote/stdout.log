@@ -1,0 +1,40 @@
+Built target ament_cmake_python_copy_manipulator_remote
+running egg_info
+writing manipulator_remote.egg-info/PKG-INFO
+writing dependency_links to manipulator_remote.egg-info/dependency_links.txt
+writing top-level names to manipulator_remote.egg-info/top_level.txt
+reading manifest file 'manipulator_remote.egg-info/SOURCES.txt'
+writing manifest file 'manipulator_remote.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_manipulator_remote_egg
+-- Install configuration: ""
+-- Up-to-date: /home/raj/robotic_arm/install/manipulator_remote/share/manipulator_remote/environment/pythonpath.sh
+-- Up-to-date: /home/raj/robotic_arm/install/manipulator_remote/share/manipulator_remote/environment/pythonpath.dsv
+-- Up-to-date: /home/raj/robotic_arm/install/manipulator_remote/lib/python3.12/site-packages/manipulator_remote-0.0.0-py3.12.egg-info
+-- Installing: /home/raj/robotic_arm/install/manipulator_remote/lib/python3.12/site-packages/manipulator_remote-0.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/raj/robotic_arm/install/manipulator_remote/lib/python3.12/site-packages/manipulator_remote-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/raj/robotic_arm/install/manipulator_remote/lib/python3.12/site-packages/manipulator_remote-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/raj/robotic_arm/install/manipulator_remote/lib/python3.12/site-packages/manipulator_remote-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Up-to-date: /home/raj/robotic_arm/install/manipulator_remote/lib/python3.12/site-packages/manipulator_remote
+-- Up-to-date: /home/raj/robotic_arm/install/manipulator_remote/lib/python3.12/site-packages/manipulator_remote/task_server.py
+-- Up-to-date: /home/raj/robotic_arm/install/manipulator_remote/lib/python3.12/site-packages/manipulator_remote/__init__.py
+-- Up-to-date: /home/raj/robotic_arm/install/manipulator_remote/lib/python3.12/site-packages/manipulator_remote/alexa_interface.py
+Listing '/home/raj/robotic_arm/install/manipulator_remote/lib/python3.12/site-packages/manipulator_remote'...
+-- Up-to-date: /home/raj/robotic_arm/install/manipulator_remote/share/manipulator_remote/launch
+-- Up-to-date: /home/raj/robotic_arm/install/manipulator_remote/share/manipulator_remote/launch/remote_interface.launch.py
+-- Up-to-date: /home/raj/robotic_arm/install/manipulator_remote/lib/manipulator_remote/task_server.py
+-- Up-to-date: /home/raj/robotic_arm/install/manipulator_remote/lib/manipulator_remote/alexa_interface.py
+-- Up-to-date: /home/raj/robotic_arm/install/manipulator_remote/share/ament_index/resource_index/package_run_dependencies/manipulator_remote
+-- Up-to-date: /home/raj/robotic_arm/install/manipulator_remote/share/ament_index/resource_index/parent_prefix_path/manipulator_remote
+-- Up-to-date: /home/raj/robotic_arm/install/manipulator_remote/share/manipulator_remote/environment/ament_prefix_path.sh
+-- Up-to-date: /home/raj/robotic_arm/install/manipulator_remote/share/manipulator_remote/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/raj/robotic_arm/install/manipulator_remote/share/manipulator_remote/environment/path.sh
+-- Up-to-date: /home/raj/robotic_arm/install/manipulator_remote/share/manipulator_remote/environment/path.dsv
+-- Up-to-date: /home/raj/robotic_arm/install/manipulator_remote/share/manipulator_remote/local_setup.bash
+-- Up-to-date: /home/raj/robotic_arm/install/manipulator_remote/share/manipulator_remote/local_setup.sh
+-- Up-to-date: /home/raj/robotic_arm/install/manipulator_remote/share/manipulator_remote/local_setup.zsh
+-- Up-to-date: /home/raj/robotic_arm/install/manipulator_remote/share/manipulator_remote/local_setup.dsv
+-- Installing: /home/raj/robotic_arm/install/manipulator_remote/share/manipulator_remote/package.dsv
+-- Up-to-date: /home/raj/robotic_arm/install/manipulator_remote/share/ament_index/resource_index/packages/manipulator_remote
+-- Up-to-date: /home/raj/robotic_arm/install/manipulator_remote/share/manipulator_remote/cmake/manipulator_remoteConfig.cmake
+-- Up-to-date: /home/raj/robotic_arm/install/manipulator_remote/share/manipulator_remote/cmake/manipulator_remoteConfig-version.cmake
+-- Up-to-date: /home/raj/robotic_arm/install/manipulator_remote/share/manipulator_remote/package.xml

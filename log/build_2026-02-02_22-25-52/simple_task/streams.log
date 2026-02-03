@@ -1,0 +1,39 @@
+[0.519s] Invoking command in '/home/raj/robotic_arm/src/simple_task': AMENT_PREFIX_PATH=/home/raj/robotic_arm/install/manipulator_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raj/robotic_arm/install/manipulator_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/raj/robotic_arm/install/manipulator_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raj/robotic_arm/build/simple_task/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raj/robotic_arm/install/simple_task/lib/python3.12/site-packages:/home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simple_task build --build-base /home/raj/robotic_arm/build/simple_task/build install --record /home/raj/robotic_arm/build/simple_task/install.log --single-version-externally-managed install_data
+[0.651s] running egg_info
+[0.652s] creating ../../build/simple_task/simple_task.egg-info
+[0.660s] writing ../../build/simple_task/simple_task.egg-info/PKG-INFO
+[0.660s] writing dependency_links to ../../build/simple_task/simple_task.egg-info/dependency_links.txt
+[0.661s] writing entry points to ../../build/simple_task/simple_task.egg-info/entry_points.txt
+[0.661s] writing requirements to ../../build/simple_task/simple_task.egg-info/requires.txt
+[0.661s] writing top-level names to ../../build/simple_task/simple_task.egg-info/top_level.txt
+[0.661s] writing manifest file '../../build/simple_task/simple_task.egg-info/SOURCES.txt'
+[0.679s] reading manifest file '../../build/simple_task/simple_task.egg-info/SOURCES.txt'
+[0.679s] writing manifest file '../../build/simple_task/simple_task.egg-info/SOURCES.txt'
+[0.679s] running build
+[0.680s] running build_py
+[0.680s] creating /home/raj/robotic_arm/build/simple_task/build
+[0.680s] creating /home/raj/robotic_arm/build/simple_task/build/lib
+[0.680s] creating /home/raj/robotic_arm/build/simple_task/build/lib/simple_task
+[0.680s] copying simple_task/simple_moveit_interface.py -> /home/raj/robotic_arm/build/simple_task/build/lib/simple_task
+[0.680s] copying simple_task/__init__.py -> /home/raj/robotic_arm/build/simple_task/build/lib/simple_task
+[0.680s] running install
+[0.683s] running install_lib
+[0.692s] creating /home/raj/robotic_arm/install/simple_task/lib/python3.12/site-packages/simple_task
+[0.692s] copying /home/raj/robotic_arm/build/simple_task/build/lib/simple_task/simple_moveit_interface.py -> /home/raj/robotic_arm/install/simple_task/lib/python3.12/site-packages/simple_task
+[0.693s] copying /home/raj/robotic_arm/build/simple_task/build/lib/simple_task/__init__.py -> /home/raj/robotic_arm/install/simple_task/lib/python3.12/site-packages/simple_task
+[0.693s] byte-compiling /home/raj/robotic_arm/install/simple_task/lib/python3.12/site-packages/simple_task/simple_moveit_interface.py to simple_moveit_interface.cpython-312.pyc
+[0.693s] byte-compiling /home/raj/robotic_arm/install/simple_task/lib/python3.12/site-packages/simple_task/__init__.py to __init__.cpython-312.pyc
+[0.693s] running install_data
+[0.693s] creating /home/raj/robotic_arm/install/simple_task/share/ament_index
+[0.693s] creating /home/raj/robotic_arm/install/simple_task/share/ament_index/resource_index
+[0.693s] creating /home/raj/robotic_arm/install/simple_task/share/ament_index/resource_index/packages
+[0.693s] copying resource/simple_task -> /home/raj/robotic_arm/install/simple_task/share/ament_index/resource_index/packages
+[0.693s] copying package.xml -> /home/raj/robotic_arm/install/simple_task/share/simple_task
+[0.694s] creating /home/raj/robotic_arm/install/simple_task/share/simple_task/launch
+[0.694s] copying launch/simple_moveit_interface.launch.py -> /home/raj/robotic_arm/install/simple_task/share/simple_task/launch
+[0.694s] running install_egg_info
+[0.703s] Copying ../../build/simple_task/simple_task.egg-info to /home/raj/robotic_arm/install/simple_task/lib/python3.12/site-packages/simple_task-0.0.0-py3.12.egg-info
+[0.704s] running install_scripts
+[0.771s] Installing simple_moveit_interface script to /home/raj/robotic_arm/install/simple_task/lib/simple_task
+[0.771s] writing list of installed files to '/home/raj/robotic_arm/build/simple_task/install.log'
+[0.790s] Invoked command in '/home/raj/robotic_arm/src/simple_task' returned '0': AMENT_PREFIX_PATH=/home/raj/robotic_arm/install/manipulator_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raj/robotic_arm/install/manipulator_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/raj/robotic_arm/install/manipulator_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raj/robotic_arm/build/simple_task/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raj/robotic_arm/install/simple_task/lib/python3.12/site-packages:/home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simple_task build --build-base /home/raj/robotic_arm/build/simple_task/build install --record /home/raj/robotic_arm/build/simple_task/install.log --single-version-externally-managed install_data

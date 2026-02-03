@@ -237,4 +237,8 @@ CMakeFiles/manipulator_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/mani
  /home/raj/robotic_arm/build/manipulator_msgs/rosidl_generator_c/manipulator_msgs/srv/detail/euler_to_quaternion__functions.h \
  /home/raj/robotic_arm/build/manipulator_msgs/rosidl_generator_c/manipulator_msgs/srv/detail/quaternion_to_euler__type_support.h \
  /home/raj/robotic_arm/build/manipulator_msgs/rosidl_generator_c/manipulator_msgs/srv/detail/quaternion_to_euler__struct.h \
- /home/raj/robotic_arm/build/manipulator_msgs/rosidl_generator_c/manipulator_msgs/srv/detail/quaternion_to_euler__functions.h
+ /home/raj/robotic_arm/build/manipulator_msgs/rosidl_generator_c/manipulator_msgs/srv/detail/quaternion_to_euler__functions.h \
+ /home/raj/robotic_arm/build/manipulator_msgs/rosidl_generator_c/manipulator_msgs/action/detail/manipulator_task__type_support.h \
+ /home/raj/robotic_arm/build/manipulator_msgs/rosidl_generator_c/manipulator_msgs/action/detail/manipulator_task__struct.h \
+ /opt/ros/jazzy/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
+ /home/raj/robotic_arm/build/manipulator_msgs/rosidl_generator_c/manipulator_msgs/action/detail/manipulator_task__functions.h

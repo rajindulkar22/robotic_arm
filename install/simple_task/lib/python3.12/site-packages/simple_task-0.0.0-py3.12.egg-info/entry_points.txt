@@ -1,0 +1,2 @@
+[console_scripts]
+simple_moveit_interface = simple_task.simple_moveit_interface:main

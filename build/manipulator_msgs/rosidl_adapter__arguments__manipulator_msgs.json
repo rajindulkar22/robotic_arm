@@ -2,6 +2,7 @@
   "package_name": "manipulator_msgs",
   "non_idl_tuples": [
     "/home/raj/robotic_arm/src/manipulator_msgs:srv/EulerToQuaternion.srv",
-    "/home/raj/robotic_arm/src/manipulator_msgs:srv/QuaternionToEuler.srv"
+    "/home/raj/robotic_arm/src/manipulator_msgs:srv/QuaternionToEuler.srv",
+    "/home/raj/robotic_arm/src/manipulator_msgs:action/ManipulatorTask.action"
   ]
 }

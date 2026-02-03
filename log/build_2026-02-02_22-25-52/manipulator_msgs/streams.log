@@ -1,0 +1,306 @@
+[0.019s] Invoking command in '/home/raj/robotic_arm/build/manipulator_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/raj/robotic_arm/build/manipulator_msgs -- -j32 -l32
+[0.179s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.180s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.180s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.180s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.180s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.187s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.453s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.517s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.597s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.598s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[0.754s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[0.764s] -- Configuring done (0.7s)
+[0.790s] -- Generating done (0.0s)
+[0.797s] -- Build files have been written to: /home/raj/robotic_arm/build/manipulator_msgs
+[0.826s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[0.833s] [  1%] Built target ament_cmake_python_copy_manipulator_msgs
+[0.947s] running egg_info
+[0.957s] writing manipulator_msgs.egg-info/PKG-INFO
+[0.957s] writing dependency_links to manipulator_msgs.egg-info/dependency_links.txt
+[0.957s] writing top-level names to manipulator_msgs.egg-info/top_level.txt
+[0.975s] [  1%] Built target manipulator_msgs__rosidl_generator_type_description
+[0.984s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.986s] reading manifest file 'manipulator_msgs.egg-info/SOURCES.txt'
+[0.986s] writing manifest file 'manipulator_msgs.egg-info/SOURCES.txt'
+[0.991s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.005s] [  5%] Built target ament_cmake_python_build_manipulator_msgs_egg
+[1.302s] [  5%] Built target manipulator_msgs__cpp
+[1.344s] [  7%] [32mBuilding C object CMakeFiles/manipulator_msgs__rosidl_generator_c.dir/rosidl_generator_c/manipulator_msgs/srv/detail/euler_to_quaternion__functions.c.o[0m
+[1.344s] [  9%] [32mBuilding C object CMakeFiles/manipulator_msgs__rosidl_generator_c.dir/rosidl_generator_c/manipulator_msgs/srv/detail/euler_to_quaternion__description.c.o[0m
+[1.344s] [ 14%] [32mBuilding C object CMakeFiles/manipulator_msgs__rosidl_generator_c.dir/rosidl_generator_c/manipulator_msgs/srv/detail/quaternion_to_euler__functions.c.o[0m
+[1.344s] [ 14%] [32mBuilding C object CMakeFiles/manipulator_msgs__rosidl_generator_c.dir/rosidl_generator_c/manipulator_msgs/srv/detail/euler_to_quaternion__type_support.c.o[0m
+[1.344s] [ 14%] [32mBuilding C object CMakeFiles/manipulator_msgs__rosidl_generator_c.dir/rosidl_generator_c/manipulator_msgs/srv/detail/quaternion_to_euler__description.c.o[0m
+[1.345s] [ 18%] [32mBuilding C object CMakeFiles/manipulator_msgs__rosidl_generator_c.dir/rosidl_generator_c/manipulator_msgs/srv/detail/quaternion_to_euler__type_support.c.o[0m
+[1.345s] [ 18%] [32mBuilding C object CMakeFiles/manipulator_msgs__rosidl_generator_c.dir/rosidl_generator_c/manipulator_msgs/action/detail/manipulator_task__description.c.o[0m
+[1.345s] [ 20%] [32mBuilding C object CMakeFiles/manipulator_msgs__rosidl_generator_c.dir/rosidl_generator_c/manipulator_msgs/action/detail/manipulator_task__functions.c.o[0m
+[1.345s] [ 22%] [32mBuilding C object CMakeFiles/manipulator_msgs__rosidl_generator_c.dir/rosidl_generator_c/manipulator_msgs/action/detail/manipulator_task__type_support.c.o[0m
+[1.448s] [ 24%] [32m[1mLinking C shared library libmanipulator_msgs__rosidl_generator_c.so[0m
+[1.477s] [ 24%] Built target manipulator_msgs__rosidl_generator_c
+[1.486s] [ 31%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.486s] [ 31%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.486s] [ 31%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.486s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.486s] [ 35%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.486s] [ 35%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.701s] [ 37%] [32mBuilding CXX object CMakeFiles/manipulator_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulator_msgs/srv/quaternion_to_euler__type_support.cpp.o[0m
+[1.701s] [ 38%] [32mBuilding CXX object CMakeFiles/manipulator_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulator_msgs/srv/euler_to_quaternion__type_support.cpp.o[0m
+[1.701s] [ 40%] [32mBuilding CXX object CMakeFiles/manipulator_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/manipulator_msgs/action/manipulator_task__type_support.cpp.o[0m
+[1.708s] [ 42%] [32mBuilding CXX object CMakeFiles/manipulator_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/manipulator_msgs/action/manipulator_task__type_support.cpp.o[0m
+[1.708s] [ 46%] [32mBuilding CXX object CMakeFiles/manipulator_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/manipulator_msgs/srv/euler_to_quaternion__type_support.cpp.o[0m
+[1.708s] [ 46%] [32mBuilding CXX object CMakeFiles/manipulator_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/manipulator_msgs/srv/quaternion_to_euler__type_support.cpp.o[0m
+[1.744s] [ 48%] [32m[1mLinking CXX shared library libmanipulator_msgs__rosidl_typesupport_c.so[0m
+[1.756s] [ 50%] [32mBuilding CXX object CMakeFiles/manipulator_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/manipulator_msgs/srv/detail/euler_to_quaternion__type_support.cpp.o[0m
+[1.756s] [ 51%] [32mBuilding CXX object CMakeFiles/manipulator_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/manipulator_msgs/srv/detail/quaternion_to_euler__type_support.cpp.o[0m
+[1.756s] [ 53%] [32mBuilding CXX object CMakeFiles/manipulator_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/manipulator_msgs/action/detail/manipulator_task__type_support.cpp.o[0m
+[1.770s] [ 55%] [32mBuilding C object CMakeFiles/manipulator_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/manipulator_msgs/srv/detail/euler_to_quaternion__type_support.c.o[0m
+[1.770s] [ 57%] [32mBuilding C object CMakeFiles/manipulator_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/manipulator_msgs/srv/detail/quaternion_to_euler__type_support.c.o[0m
+[1.770s] [ 59%] [32mBuilding C object CMakeFiles/manipulator_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/manipulator_msgs/action/detail/manipulator_task__type_support.c.o[0m
+[1.779s] [ 59%] Built target manipulator_msgs__rosidl_typesupport_c
+[1.817s] [ 61%] [32m[1mLinking C shared library libmanipulator_msgs__rosidl_typesupport_introspection_c.so[0m
+[1.846s] [ 61%] Built target manipulator_msgs__rosidl_typesupport_introspection_c
+[1.867s] [ 64%] [32mBuilding CXX object CMakeFiles/manipulator_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/manipulator_msgs/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp.o[0m
+[1.867s] [ 64%] [32mBuilding CXX object CMakeFiles/manipulator_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/manipulator_msgs/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp.o[0m
+[1.867s] [ 66%] [32mBuilding CXX object CMakeFiles/manipulator_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/manipulator_msgs/action/detail/dds_fastrtps/manipulator_task__type_support.cpp.o[0m
+[1.902s] [ 70%] [32mBuilding CXX object CMakeFiles/manipulator_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/manipulator_msgs/srv/detail/quaternion_to_euler__type_support_c.cpp.o[0m
+[1.902s] [ 70%] [32mBuilding CXX object CMakeFiles/manipulator_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/manipulator_msgs/srv/detail/euler_to_quaternion__type_support_c.cpp.o[0m
+[1.902s] [ 72%] [32mBuilding CXX object CMakeFiles/manipulator_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/manipulator_msgs/action/detail/manipulator_task__type_support_c.cpp.o[0m
+[2.114s] [ 74%] [32m[1mLinking CXX shared library libmanipulator_msgs__rosidl_typesupport_cpp.so[0m
+[2.172s] [ 74%] Built target manipulator_msgs__rosidl_typesupport_cpp
+[2.183s] [ 75%] [32m[1mLinking CXX shared library libmanipulator_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.237s] [ 75%] Built target manipulator_msgs__rosidl_typesupport_introspection_cpp
+[2.244s] [ 77%] [32m[1mLinking CXX shared library libmanipulator_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.278s] [ 77%] Built target manipulator_msgs__rosidl_typesupport_fastrtps_c
+[2.406s] [ 79%] [32m[1mLinking CXX shared library libmanipulator_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.455s] [ 79%] Built target manipulator_msgs__rosidl_typesupport_fastrtps_cpp
+[2.470s] [ 79%] Built target manipulator_msgs
+[2.486s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.017s] [ 81%] Built target manipulator_msgs__py
+[3.035s] [ 85%] [32mBuilding C object CMakeFiles/manipulator_msgs__rosidl_generator_py.dir/rosidl_generator_py/manipulator_msgs/srv/_euler_to_quaternion_s.c.o[0m
+[3.035s] [ 85%] [32mBuilding C object CMakeFiles/manipulator_msgs__rosidl_generator_py.dir/rosidl_generator_py/manipulator_msgs/srv/_quaternion_to_euler_s.c.o[0m
+[3.036s] [ 87%] [32mBuilding C object CMakeFiles/manipulator_msgs__rosidl_generator_py.dir/rosidl_generator_py/manipulator_msgs/action/_manipulator_task_s.c.o[0m
+[3.153s] [ 88%] [32m[1mLinking C shared library libmanipulator_msgs__rosidl_generator_py.so[0m
+[3.186s] [ 88%] Built target manipulator_msgs__rosidl_generator_py
+[3.202s] [ 90%] [32mBuilding C object CMakeFiles/manipulator_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/manipulator_msgs/_manipulator_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[3.203s] [ 94%] [32mBuilding C object CMakeFiles/manipulator_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/manipulator_msgs/_manipulator_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.203s] [ 94%] [32mBuilding C object CMakeFiles/manipulator_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/manipulator_msgs/_manipulator_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.288s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/manipulator_msgs/manipulator_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[3.288s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/manipulator_msgs/manipulator_msgs_s__rosidl_typesupport_c.so[0m
+[3.292s] [100%] [32m[1mLinking C shared module rosidl_generator_py/manipulator_msgs/manipulator_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[3.312s] [100%] Built target manipulator_msgs_s__rosidl_typesupport_c
+[3.312s] [100%] Built target manipulator_msgs_s__rosidl_typesupport_introspection_c
+[3.317s] [100%] Built target manipulator_msgs_s__rosidl_typesupport_fastrtps_c
+[3.326s] Invoked command in '/home/raj/robotic_arm/build/manipulator_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/raj/robotic_arm/build/manipulator_msgs -- -j32 -l32
+[3.327s] Invoking command in '/home/raj/robotic_arm/build/manipulator_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/raj/robotic_arm/build/manipulator_msgs
+[3.333s] -- Install configuration: ""
+[3.333s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/share/ament_index/resource_index/rosidl_interfaces/manipulator_msgs
+[3.333s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/srv/EulerToQuaternion.json
+[3.333s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/srv/QuaternionToEuler.json
+[3.333s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/action/ManipulatorTask.json
+[3.333s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs
+[3.333s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/msg
+[3.333s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.333s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv
+[3.333s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/detail
+[3.334s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/detail/quaternion_to_euler__type_support.h
+[3.334s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/detail/euler_to_quaternion__functions.h
+[3.334s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/detail/euler_to_quaternion__struct.h
+[3.334s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/detail/quaternion_to_euler__type_support.c
+[3.334s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/detail/euler_to_quaternion__type_support.c
+[3.334s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/detail/quaternion_to_euler__functions.c
+[3.334s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/detail/euler_to_quaternion__description.c
+[3.334s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/detail/euler_to_quaternion__functions.c
+[3.334s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/detail/euler_to_quaternion__type_support.h
+[3.334s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/detail/quaternion_to_euler__functions.h
+[3.334s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/detail/quaternion_to_euler__struct.h
+[3.334s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/detail/quaternion_to_euler__description.c
+[3.335s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/euler_to_quaternion.h
+[3.335s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/quaternion_to_euler.h
+[3.335s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/action
+[3.335s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/action/detail
+[3.335s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/action/detail/manipulator_task__struct.h
+[3.335s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/action/detail/manipulator_task__type_support.h
+[3.335s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/action/detail/manipulator_task__functions.h
+[3.335s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/action/detail/manipulator_task__type_support.c
+[3.335s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/action/detail/manipulator_task__description.c
+[3.335s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/action/detail/manipulator_task__functions.c
+[3.335s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/action/manipulator_task.h
+[3.336s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/environment/library_path.sh
+[3.336s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/environment/library_path.dsv
+[3.336s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/lib/libmanipulator_msgs__rosidl_generator_c.so
+[3.336s] -- Set non-toolchain portion of runtime path of "/home/raj/robotic_arm/install/manipulator_msgs/lib/libmanipulator_msgs__rosidl_generator_c.so" to ""
+[3.336s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs
+[3.336s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/msg
+[3.336s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.336s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv
+[3.336s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/detail
+[3.336s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/detail/quaternion_to_euler__rosidl_typesupport_fastrtps_c.h
+[3.336s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/detail/euler_to_quaternion__rosidl_typesupport_fastrtps_c.h
+[3.337s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/action
+[3.337s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/action/detail
+[3.337s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/action/detail/manipulator_task__rosidl_typesupport_fastrtps_c.h
+[3.337s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/lib/libmanipulator_msgs__rosidl_typesupport_fastrtps_c.so
+[3.337s] -- Set non-toolchain portion of runtime path of "/home/raj/robotic_arm/install/manipulator_msgs/lib/libmanipulator_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[3.337s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs
+[3.337s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/msg
+[3.337s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.337s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv
+[3.337s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/detail
+[3.337s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/detail/quaternion_to_euler__type_support.c
+[3.337s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/detail/euler_to_quaternion__type_support.c
+[3.337s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/detail/quaternion_to_euler__rosidl_typesupport_introspection_c.h
+[3.338s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/detail/euler_to_quaternion__rosidl_typesupport_introspection_c.h
+[3.338s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/action
+[3.338s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/action/detail
+[3.338s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/action/detail/manipulator_task__rosidl_typesupport_introspection_c.h
+[3.338s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/action/detail/manipulator_task__type_support.c
+[3.338s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/lib/libmanipulator_msgs__rosidl_typesupport_introspection_c.so
+[3.338s] -- Set non-toolchain portion of runtime path of "/home/raj/robotic_arm/install/manipulator_msgs/lib/libmanipulator_msgs__rosidl_typesupport_introspection_c.so" to ""
+[3.338s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/lib/libmanipulator_msgs__rosidl_typesupport_c.so
+[3.339s] -- Set non-toolchain portion of runtime path of "/home/raj/robotic_arm/install/manipulator_msgs/lib/libmanipulator_msgs__rosidl_typesupport_c.so" to ""
+[3.339s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs
+[3.339s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/msg
+[3.339s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.339s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv
+[3.339s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/euler_to_quaternion.hpp
+[3.339s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/detail
+[3.339s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/detail/euler_to_quaternion__traits.hpp
+[3.339s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/detail/quaternion_to_euler__type_support.hpp
+[3.339s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/detail/quaternion_to_euler__traits.hpp
+[3.339s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/detail/euler_to_quaternion__type_support.hpp
+[3.339s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/detail/euler_to_quaternion__builder.hpp
+[3.339s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/detail/quaternion_to_euler__struct.hpp
+[3.339s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/detail/quaternion_to_euler__builder.hpp
+[3.339s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/detail/euler_to_quaternion__struct.hpp
+[3.340s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/quaternion_to_euler.hpp
+[3.340s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/action
+[3.340s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/action/detail
+[3.340s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/action/detail/manipulator_task__builder.hpp
+[3.340s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/action/detail/manipulator_task__traits.hpp
+[3.340s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/action/detail/manipulator_task__type_support.hpp
+[3.340s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/action/detail/manipulator_task__struct.hpp
+[3.340s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/action/manipulator_task.hpp
+[3.340s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs
+[3.340s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/msg
+[3.340s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.340s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv
+[3.340s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/detail
+[3.340s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/detail/quaternion_to_euler__rosidl_typesupport_fastrtps_cpp.hpp
+[3.340s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/detail/dds_fastrtps
+[3.340s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/detail/euler_to_quaternion__rosidl_typesupport_fastrtps_cpp.hpp
+[3.341s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/action
+[3.341s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/action/detail
+[3.341s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/action/detail/manipulator_task__rosidl_typesupport_fastrtps_cpp.hpp
+[3.341s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/action/detail/dds_fastrtps
+[3.341s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/lib/libmanipulator_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.341s] -- Set non-toolchain portion of runtime path of "/home/raj/robotic_arm/install/manipulator_msgs/lib/libmanipulator_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.341s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs
+[3.341s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv
+[3.342s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/detail
+[3.342s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/detail/quaternion_to_euler__type_support.cpp
+[3.342s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/detail/euler_to_quaternion__type_support.cpp
+[3.342s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/detail/euler_to_quaternion__rosidl_typesupport_introspection_cpp.hpp
+[3.342s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/srv/detail/quaternion_to_euler__rosidl_typesupport_introspection_cpp.hpp
+[3.342s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/action
+[3.342s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/action/detail
+[3.342s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/action/detail/manipulator_task__rosidl_typesupport_introspection_cpp.hpp
+[3.342s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/include/manipulator_msgs/manipulator_msgs/action/detail/manipulator_task__type_support.cpp
+[3.342s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/lib/libmanipulator_msgs__rosidl_typesupport_introspection_cpp.so
+[3.343s] -- Set non-toolchain portion of runtime path of "/home/raj/robotic_arm/install/manipulator_msgs/lib/libmanipulator_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[3.343s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/lib/libmanipulator_msgs__rosidl_typesupport_cpp.so
+[3.343s] -- Set non-toolchain portion of runtime path of "/home/raj/robotic_arm/install/manipulator_msgs/lib/libmanipulator_msgs__rosidl_typesupport_cpp.so" to ""
+[3.343s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/environment/pythonpath.sh
+[3.343s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/environment/pythonpath.dsv
+[3.344s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages/manipulator_msgs-0.0.0-py3.12.egg-info
+[3.344s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages/manipulator_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[3.344s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages/manipulator_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[3.344s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages/manipulator_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[3.344s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages/manipulator_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[3.344s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages/manipulator_msgs
+[3.344s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages/manipulator_msgs/manipulator_msgs_s__rosidl_typesupport_c.so
+[3.344s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages/manipulator_msgs/manipulator_msgs_s__rosidl_typesupport_fastrtps_c.so
+[3.344s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages/manipulator_msgs/_manipulator_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[3.344s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages/manipulator_msgs/manipulator_msgs_s__rosidl_typesupport_introspection_c.so
+[3.344s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages/manipulator_msgs/_manipulator_msgs_s.ep.rosidl_typesupport_c.c
+[3.345s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages/manipulator_msgs/srv
+[3.345s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages/manipulator_msgs/srv/_quaternion_to_euler.py
+[3.345s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages/manipulator_msgs/srv/_euler_to_quaternion_s.c
+[3.345s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages/manipulator_msgs/srv/__init__.py
+[3.345s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages/manipulator_msgs/srv/_quaternion_to_euler_s.c
+[3.345s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages/manipulator_msgs/srv/_euler_to_quaternion.py
+[3.345s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages/manipulator_msgs/__init__.py
+[3.345s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages/manipulator_msgs/_manipulator_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.345s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages/manipulator_msgs/action
+[3.345s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages/manipulator_msgs/action/_manipulator_task.py
+[3.346s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages/manipulator_msgs/action/_manipulator_task_s.c
+[3.346s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages/manipulator_msgs/action/__init__.py
+[3.376s] Listing '/home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages/manipulator_msgs'...
+[3.376s] Compiling '/home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages/manipulator_msgs/__init__.py'...
+[3.376s] Listing '/home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages/manipulator_msgs/action'...
+[3.376s] Compiling '/home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages/manipulator_msgs/action/__init__.py'...
+[3.376s] Compiling '/home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages/manipulator_msgs/action/_manipulator_task.py'...
+[3.376s] Listing '/home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages/manipulator_msgs/srv'...
+[3.376s] Compiling '/home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages/manipulator_msgs/srv/__init__.py'...
+[3.376s] Compiling '/home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages/manipulator_msgs/srv/_euler_to_quaternion.py'...
+[3.376s] Compiling '/home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages/manipulator_msgs/srv/_quaternion_to_euler.py'...
+[3.379s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages/manipulator_msgs/manipulator_msgs_s__rosidl_typesupport_fastrtps_c.so
+[3.379s] -- Set non-toolchain portion of runtime path of "/home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages/manipulator_msgs/manipulator_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[3.379s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages/manipulator_msgs/manipulator_msgs_s__rosidl_typesupport_introspection_c.so
+[3.380s] -- Set non-toolchain portion of runtime path of "/home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages/manipulator_msgs/manipulator_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[3.380s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages/manipulator_msgs/manipulator_msgs_s__rosidl_typesupport_c.so
+[3.380s] -- Set non-toolchain portion of runtime path of "/home/raj/robotic_arm/install/manipulator_msgs/lib/python3.12/site-packages/manipulator_msgs/manipulator_msgs_s__rosidl_typesupport_c.so" to ""
+[3.380s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/lib/libmanipulator_msgs__rosidl_generator_py.so
+[3.381s] -- Set non-toolchain portion of runtime path of "/home/raj/robotic_arm/install/manipulator_msgs/lib/libmanipulator_msgs__rosidl_generator_py.so" to ""
+[3.381s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/srv/EulerToQuaternion.idl
+[3.381s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/srv/QuaternionToEuler.idl
+[3.381s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/action/ManipulatorTask.idl
+[3.381s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/srv/EulerToQuaternion.srv
+[3.381s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/srv/QuaternionToEuler.srv
+[3.381s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/action/ManipulatorTask.action
+[3.381s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/share/ament_index/resource_index/package_run_dependencies/manipulator_msgs
+[3.381s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/share/ament_index/resource_index/parent_prefix_path/manipulator_msgs
+[3.381s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/environment/ament_prefix_path.sh
+[3.381s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/environment/ament_prefix_path.dsv
+[3.381s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/environment/path.sh
+[3.381s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/environment/path.dsv
+[3.381s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/local_setup.bash
+[3.381s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/local_setup.sh
+[3.381s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/local_setup.zsh
+[3.381s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/local_setup.dsv
+[3.381s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/package.dsv
+[3.381s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/share/ament_index/resource_index/packages/manipulator_msgs
+[3.382s] -- Old export file "/home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/cmake/export_manipulator_msgs__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/cmake/export_manipulator_msgs__rosidl_generator_cExport-noconfig.cmake].
+[3.382s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/cmake/export_manipulator_msgs__rosidl_generator_cExport.cmake
+[3.382s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/cmake/export_manipulator_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.382s] -- Old export file "/home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/cmake/export_manipulator_msgs__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/cmake/export_manipulator_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake].
+[3.382s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/cmake/export_manipulator_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.382s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/cmake/export_manipulator_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.382s] -- Old export file "/home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/cmake/manipulator_msgs__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/cmake/manipulator_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake].
+[3.382s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/cmake/manipulator_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.382s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/cmake/manipulator_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.382s] -- Old export file "/home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/cmake/manipulator_msgs__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/cmake/manipulator_msgs__rosidl_typesupport_cExport-noconfig.cmake].
+[3.382s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/cmake/manipulator_msgs__rosidl_typesupport_cExport.cmake
+[3.382s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/cmake/manipulator_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.383s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/cmake/export_manipulator_msgs__rosidl_generator_cppExport.cmake
+[3.383s] -- Old export file "/home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/cmake/export_manipulator_msgs__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/cmake/export_manipulator_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake].
+[3.383s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/cmake/export_manipulator_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.383s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/cmake/export_manipulator_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.383s] -- Old export file "/home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/cmake/manipulator_msgs__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/cmake/manipulator_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake].
+[3.383s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/cmake/manipulator_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.383s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/cmake/manipulator_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.383s] -- Old export file "/home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/cmake/manipulator_msgs__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/cmake/manipulator_msgs__rosidl_typesupport_cppExport-noconfig.cmake].
+[3.383s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/cmake/manipulator_msgs__rosidl_typesupport_cppExport.cmake
+[3.383s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/cmake/manipulator_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.384s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/cmake/export_manipulator_msgs__rosidl_generator_pyExport.cmake
+[3.384s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/cmake/export_manipulator_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.384s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/cmake/rosidl_cmake-extras.cmake
+[3.384s] -- Installing: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.384s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.384s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.384s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.384s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.384s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.384s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/cmake/manipulator_msgsConfig.cmake
+[3.384s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/cmake/manipulator_msgsConfig-version.cmake
+[3.384s] -- Up-to-date: /home/raj/robotic_arm/install/manipulator_msgs/share/manipulator_msgs/package.xml
+[3.386s] Invoked command in '/home/raj/robotic_arm/build/manipulator_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/raj/robotic_arm/build/manipulator_msgs
